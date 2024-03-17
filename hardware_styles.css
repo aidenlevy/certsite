@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  /* Style the topnav links */
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change color on hover */
+  .topnav a:hover {
+    background-color: #fbb400;
+    color: black;
+  }
+  .headerr {
+    background-color: #743737; /* Background color for the header */
+    padding: 30px;
+    font-size: 35px;
+    color: white; /* Text color for the header */
+}
+
+/* Style the content */
+.content {
+    background-color: #743737;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+    text-align: center; /* Center-align the text within the content div */
+}
+
+/* Style the content */
+.ctcertcontent {
+    background-color: #562a2a;
+    padding: 10px;
+    height: 800px; /* Should be removed. Only for demonstration */
+    text-align: center; /* Center-align the text within the content div */
+}
+/* Style the content */
+.tocertcontent {
+    background-color: #743737;
+    padding: 10px;
+    height: 600px; /* Should be removed. Only for demonstration */
+    text-align: center; /* Center-align the text within the content div */
+}
+/* Style the content */
+.acmtcertcontent {
+    background-color: #562a2a;
+    padding: 10px;
+    height: 750px; /* Should be removed. Only for demonstration */
+    text-align: center; /* Center-align the text within the content div */
+}
+
+/* Style the footer */
+.footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+
+}
+
+/* Center-align text for the description*/
+.center-align {
+    text-align: center;
+    width: 600px; /* set the width of the container */ 
+    margin: 0 auto;
+}
