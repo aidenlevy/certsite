@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-9TM34KC8M9"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-9TM34KC8M9');
+</script>
+    <title>Contact Us</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="contact_styles.css">
+</head>
+<body>
+
+<div class="topnav">
+  <a href="#">Home</a>
+  <a href="#">Hardware Certifications</a>
+  <a href="#">Contact</a>
+</div>
+<div class="logo">
+<h2><img src="logo.png" alt="logo" width="579" height="55"></h2>
+</div>
+<div class="content">
+  <h2>Contact Us</h2>
+  <p>Fill out the form below with the specified information and we will getback to you as soon as possible</p>
+  <form action="/submit_form.php" method="post">
+    <label for="fname">First Name:</label><br>
+    <input type="text" id="fname" name="fname" required><br>
+    
+    <label for="lname">Last Name:</label><br>
+    <input type="text" id="lname" name="lname" required><br>
+    
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" required><br>
+    
+    <label for="phone">Phone Number:</label><br>
+    <input type="tel" id="phone" name="phone" required><br>
+    
+    <label for="message">Message:</label><br>
+    <textarea id="message" name="message" rows="4" cols="50" required></textarea><br>
+    
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+<div class="footer">
+  <p>Footer</p>
+</div>
+
+</body>
+</html>
