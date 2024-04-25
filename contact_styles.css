@@ -1,53 +1,106 @@
 * {
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
-    
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #743737;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #743737;
 }
 
 /* Style the top navigation bar */
 .topnav {
-    overflow: hidden;
-    background-color: #333;
-  }
-  
-  /* Style the topnav links */
-  .topnav a {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  /* Change color on hover */
-  .topnav a:hover {
-    background-color: #fbb400;
-    color: black;
-  }
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #fbb400;
+  color: black;
+}
 
 /* Style the content */
 .content {
-    background-color: #8c4b4b;
-    padding: 10px;
-    height: 750px; /* Should be removed. Only for demonstration */
-    color: white;
+  background-color: #8c4b4b;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+  color: white;
+}
+
+/* Style the form */
+form {
+  background-color: transparent;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+/* Style the form labels */
+form label {
+  display: block;
+  margin-bottom: 5px;
+  color: white; /* Change text color to white */
+}
+
+/* Style the form input fields */
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"],
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  color: rgb(0, 0, 0); /* Change text color to white */
+}
+
+/* Style the form textarea */
+form textarea {
+  resize: vertical; /* Allow vertical resizing */
+  color: rgb(0, 0, 0); /* Change text color to white */
+}
+
+/* Style the submit button */
+form input[type="submit"] {
+  background-color: #fbb400;
+  color: #fff;
+  border: none;
+  padding: 15px 20px;
+  font-size: 16px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Change submit button color on hover */
+form input[type="submit"]:hover {
+  background-color: #eaa600;
 }
 
 /* Style the footer */
 .footer {
-    background-color: #333;
-    padding: 10px;
-    text-align: center;
-    margin-top: auto;
-    color: white;
+  background-color: #333;
+  padding: 10px;
+  text-align: center;
+  margin-top: auto;
+  color: white;
 }
-.logo{
-    background-color: #743737;
+
+.logo {
+  background-color: #743737;
 }
