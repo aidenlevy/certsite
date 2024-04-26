@@ -17,10 +17,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="hardware_styles.css">
     
+    <style>
+        .sticky {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+        }
+    </style>
 </head>
 <body>
 
-<div class="topnav">
+<div class="topnav" id="navbar">
     <a href="https://aidenlevy.github.io/certsite/#">Home</a>
     <a href="https://aidenlevy.github.io/certsite/Hardware">Hardware Certifications</a>
     <a href="https://aidenlevy.github.io/certsite/contactus">Contact</a>
@@ -76,6 +84,21 @@
 <div class="footer">
   <p>certhub</p>
 </div>
+
+<script>
+    window.onscroll = function() {stickyNavbar()};
+
+    var navbar = document.getElementById("navbar");
+    var sticky = navbar.offsetTop;
+
+    function stickyNavbar() {
+        if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky");
+        } else {
+            navbar.classList.remove("sticky");
+        }
+    }
+</script>
 
 </body>
 </html>
